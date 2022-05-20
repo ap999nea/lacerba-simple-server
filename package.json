@@ -1,0 +1,19 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "simple server project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ap999nea",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
