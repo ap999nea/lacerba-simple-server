@@ -31,6 +31,10 @@ let posts: BlogPost[] = [
   },
 ];
 
+app.get("/posts/", (req, res) => {
+  return res.send({ posts });
+});
+
 app.get("/posts/:id", (req, res) => {
   const id = Number(req.params.id);
   const post = posts.find((post) => post.id === id);
